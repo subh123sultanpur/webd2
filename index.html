@@ -7,15 +7,21 @@
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css'/>
 <title>Hello, world!</title>
 <style>
-    a:hover{
+   /* vadd hover functionality to the anchor */
+
+    a:hover {
+        color: #000;
         text-decoration: none;
-        color:green;
     }
+
     .h-10{
-        background: url(img_tree.gif) left top no-repeat, url(img_flwr.gif) right bottom no-repeat, url(https://th.bing.com/th/id/R.1043ce522eb991dde719b58fea42f758?rik=fTUAws1PfhCjBQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fqIKdRlF.jpg&ehk=oj4W1cRioneGmtF%2b1sBUtzpfBr9S%2b%2bALpmdtrCa0l%2fo%3d&risl=&pid=ImgRaw&r=0) left top repeat;
+        background: url(img_tree.gif) left top no-repeat, url(img_flwr.gif) right bottom no-repeat, url(https://as1.ftcdn.net/v2/jpg/00/64/71/26/1000_F_64712642_OXCjBEh0CTXCKjxdm1fdmTL1XZkk89gN.jpg) left top repeat;
   padding: 15px;
-  background-size: 50px, 130px, auto;
-}
+  background-size: 50px, 130px, auto;}
+  a.hov:hover{
+        background-color: #f1f1f1;
+  }
+
     
 </style>
 </head>
@@ -24,7 +30,7 @@
     <nav class='navbar navbar-expand-lg navbar-light bg-light'>
         <div class='container-fluid bg-black  '>
             <a class='navbar-brand text-white' href='#'>
-                <img src='https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png' alt='Spotify' width='30' height='24' class='d-inline-block align-text-top'>
+                <img src='https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-logo-vector-download-11.png' alt='Spotify' width='30' height='24' class='d-inline-block align-text-top'>
                 Spotify
             </a>
             <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
@@ -59,25 +65,22 @@
             <!-- add two card -->
             <div class="row justify-content-center "> 
                 <div class="col-4"> 
-            <div class="card" style="width: 18rem;">
-                <img src="https://th.bing.com/th/id/R.1043ce522eb991dde719b58fea42f758?rik=fTUAws1PfhCjBQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fqIKdRlF.jpg&ehk=oj4W1cRioneGmtF%2b1sBUtzpfBr9S%2b%2bALpmdtrCa0l%2fo%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
-                <div class="card-body bg-black">
-                  <h5 class="card-title text-white">Spotify</h5>
-                    <p class="card-text text-white">Millions of Songs</p>
-                    <p class="card-text text-white">Play on Mobile, Tablet, and Computer</p>
-                    <p class="card-text text-white">Listen Offline</p>
-                    <p class="card-text text-white">Create Your Own Playlist</p>
-                    <p class="card-text text-white">Enjoy Amazing Sound Quality</p>
-                    <p class="card-text text-white">Start Your Free Trial Today</p>     
+            <div class="card"  >
+                <img src="images/mob.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Listen to millions of songs</h5>
+                  
+
+               
 </div>
 </div>
 </div>
 <!-- add card which contain heading of card and text and button  -->
 <div class="col-6"  > 
-<div class="card bg-transparent"  style="padding:50px">"
-    <div class="card-body">
+<div class="card bg-transparent"  >"
+    <div class="card-body"  style="padding: 168px 86px;">
         <h1 class="card-title text-white">Play millions of songs and Podcasts ,for free.</h1>
-        <a href="#" class="btn btn-primary " style="background-color:beige; color:black">Get Spotify Free</a>
+        <a href="#" class="btn btn-primary hov" style="background-color:rgb(245, 220, 241); color:rgb(0, 0, 0)">Get Spotify Free</a>
     </div>
 </div>
 </div>
@@ -85,6 +88,141 @@
         </div>
     </div>
   </div> 
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+             <h1 class="text-center">Why Spotify?</h1>
+            <div class="row mt-3">
+                <div class="col-3">
+<!-- add 4 card which contain image heading and subheading  -->
+ <!-- add a card  which contian play your favourite-->
+<div class="card" style="width: 18rem;">
+    <img src="images/1st.jpg" class="card-img-top" alt="...">
+    <div class="card-body bg-black">
+        <h5 class="card-title text-info">Play your favourite</h5>
+        <p class="card-text text-white">Millions of Songs</p>
+    </div>
+    </div>
+                </div>
+                <div class="col-3">
+                    <!-- add 4 card which contain image heading and subheading  -->
+                     <!-- add a card  which contian play your favourite-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/1st.jpg" class="card-img-top" alt="...">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title text-info">Play your favourite</h5>
+                            <p class="card-text text-white">Millions of Songs</p>
+                        </div>
+                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <!-- add 4 card which contain image heading and subheading  -->
+                                         <!-- add a card  which contian play your favourite-->
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="images/1st.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body bg-black">
+                                                <h5 class="card-title text-info">Play your favourite</h5>
+                                                <p class="card-text text-white">Millions of Songs</p>
+                                            </div>
+                                            </div>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <!-- add 4 card which contain image heading and subheading  -->
+                                                             <!-- add a card  which contian play your favourite-->
+                                                            <div class="card" style="width: 18rem;">
+                                                                <img src="images/1st.jpg" class="card-img-top" alt="...">
+                                                                <div class="card-body bg-black">
+                                                                    <h5 class="card-title text-info">Play your favourite</h5>
+                                                                    <p class="card-text text-white">Millions of Songs</p>
+                                                                </div>
+                                                                </div>
+                                                                            </div>
+ 
+            </div>
+        </div>
+    </div>
+  </div>
+
+   <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 align-content-between">
+            <!-- add a card which contain heading -->
+            <div class="card bg-info">
+                <div class="card-body " style="height:200px">
+                  <h5 class="card-title text-white">Play millions of songs and Podcasts ,for free.</h5>
+                  </div>
+            </div>
+        <div class="col-12">
+            add 
+        </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="container-fluid bg-info">
+    <div class="row ">
+        <!-- add col for adding social media hanndle  -->
+        <div class="col-4">
+            <div class="card text-center bg-transparent border-0">
+                <div class="card-body">
+                    <h5 class="card-title h1">Follow Us</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>     
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <!-- add image-->
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram" width="30px" height="30px">
+                         </a>
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="facebook" width="30px" height="30px">
+                    </a>
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-512.png" alt="Youtube" width="30px" height="30px">    
+                    </a> 
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="instagram" width="30px" height="30px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 bg-transparent justify-content-center">
+        <!-- add contact us list  -->
+        <div class="card bg-transparent border-0"> 
+         <div class="card-body  ">  
+            <ul class="list-group list-group-flush">
+                <h5 class="card-title h1">  <li class="list-group list-group-flush text-center text-dark ">Contact Us</li></h5>
+                <li class="list-group   text-center">+91 1234567890</li>
+                <li class="list-group text-center ">anu@gmail.com</li>
+                <li class="list-group text-center">7:00 Am to 8:00 Pm</li>
+            </ul>
+         
+    </div>
+  </div>
+</div>
+
+<div class="col-4 bg-transparent justify-content-center">
+    <!-- add contact us list  -->
+    <div class="card bg-transparent border-0"> 
+     <div class="card-body justify-content-center">  
+        <h5 class="card-title h1 text-center"> Newsletter</h5>
+        <p class="card-text text-center">Subscribe for latest Updates.</p>
+        <!-- add form for subscribe  -->
+        <form>
+            <div class="form-group form-floating text-center">
+              
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <label for="exampleInputEmail1" class="form">Email address</label>            
+            </div>
+            <div class="mt-2 text-center"> 
+            <button type="submit" class="btn btn-outline-success rounded-pill text-black">Subscribe</button>
+        </div>  
+        </form>
+    
+</div>
+</div>
+</div>
+
+    </div>
+ </div>
 
 <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
